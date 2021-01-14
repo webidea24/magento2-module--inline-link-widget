@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="wi24_inline_link_product"
+            class="Webidea24\InlineLinkWidget\Block\Link\Product"
+            is_email_compatible="true"
+            placeholder_image="Magento_Catalog::images/product_widget_link.png">
+        <label translate="true">Catalog Product Link (inline-link)</label>
+        <description translate="true">Link to a Specified Product (without surrounding HTML)</description>
+        <parameters>
+            <parameter name="id_path" xsi:type="block" visible="true" required="true" sort_order="10">
+                <label translate="true">Product</label>
+                <block class="Magento\Catalog\Block\Adminhtml\Product\Widget\Chooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string" translate="true">Select Product...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+        </parameters>
+    </widget>
+    <widget id="wi24_inline_link_category"
+            class="Webidea24\InlineLinkWidget\Block\Link\Category"
+            is_email_compatible="true"
+            placeholder_image="Magento_Catalog::images/category_widget_link.png">
+        <label translate="true">Catalog Category Link (inline-link)</label>
+        <description translate="true">Link to a Specified Category (without surrounding HTML)</description>
+        <parameters>
+            <parameter name="id_path" xsi:type="block" visible="true" required="true" sort_order="10">
+                <label translate="true">Category</label>
+                <block class="Magento\Catalog\Block\Adminhtml\Category\Widget\Chooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string" translate="true">Select Category...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+        </parameters>
+    </widget>
+    <widget id="wi24_inline_link_cms_page" class="Webidea24\InlineLinkWidget\Block\Cms\PageLink" is_email_compatible="true"
+            placeholder_image="Magento_Cms::images/widget_page_link.png">
+        <label translate="true">CMS Page Link (inline-link)</label>
+        <description translate="true">Link to a CMS Page (without surrounding HTML)</description>
+        <parameters>
+            <parameter name="page_id" xsi:type="block" visible="true" required="true" sort_order="10">
+                <label translate="true">CMS Page</label>
+                <block class="Magento\Cms\Block\Adminhtml\Page\Widget\Chooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string" translate="true">Select Page...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
+

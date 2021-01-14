@@ -1,0 +1,20 @@
+{
+    "name": "webidea/module-inline-link-widget",
+    "description": "Magento 2 Widget for inline links without surrounding HTML",
+    "version": "1.0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "magento/module-catalog": "*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\InlineLinkWidget\\": ""
+        }
+    }
+}
