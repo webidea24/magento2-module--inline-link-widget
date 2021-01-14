@@ -14,7 +14,7 @@ So you can use these generated links in any context you want, without any design
 4. that's it.
 
 ### Editor (self-written)
-Use this one of the following code snippet in your editor
+Use one of the following code snippet in your editor
 
 #### Product
 ```
