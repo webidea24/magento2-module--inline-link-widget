@@ -9,7 +9,7 @@ So you can use these generated links in any context you want, without any design
 
 ### Button "Insert widget"
 1. use the "Insert widget"-button to add a new widget into your editor
-2. select one of the widgets which is prefixed with `(inline-link)`
+2. select one of the widgets which is suffixed with `(inline-link)`
 3. select your entity (product, category, cms-page)
 4. that's it.
 
