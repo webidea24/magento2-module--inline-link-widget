@@ -1,5 +1,5 @@
 {
-    "name": "webidea/magento2-module-inline-link-widget",
+    "name": "webidea24/magento2-module-inline-link-widget",
     "description": "Magento 2 Widget for inline links without surrounding HTML",
     "license": [
         "MIT"
